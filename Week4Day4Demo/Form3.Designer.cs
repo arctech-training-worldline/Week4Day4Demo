@@ -210,6 +210,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "Form3";
             this.Text = "New User Registration";
+            this.DoubleClick += new System.EventHandler(this.Form3_DoubleClick);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

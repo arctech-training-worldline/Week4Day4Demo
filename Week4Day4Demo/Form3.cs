@@ -59,8 +59,6 @@ namespace Week4Day4Demo
 
         private void ButtonOpenFromFile_Click(object sender, EventArgs e)
         {
-            //var path = @"C:\Users\avina\OneDrive - arctechinfo.com\Documents\Training\Sessions\C#\20-Jan-2021\Week4Day4Demo\Week4Day4Demo\Files\Record.txt";
-
             openFileDialog1.ShowDialog();
             var path = openFileDialog1.FileName;
 
@@ -89,6 +87,11 @@ namespace Week4Day4Demo
         private void TextBoxFirstName_TextChanged(object sender, EventArgs e)
         {
             LabelCounter.Text = $@"{TextBoxFirstName.Text.Length}";
+        }
+
+        private void Form3_DoubleClick(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Maximized;
         }
     }
 }
