@@ -150,6 +150,7 @@
       <DependentUpon>TeacherForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="documents\c# Window Forms Controls.pdf" />
+    <None Include="documents\Training Topics C#.xlsx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
