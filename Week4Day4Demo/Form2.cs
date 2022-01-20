@@ -15,5 +15,17 @@ namespace Week4Day4Demo
             Width = 1000;
             Height = 500;
         }
+
+        private void InitializeComponent()
+        {
+            this.SuspendLayout();
+            // 
+            // Form2
+            // 
+            this.ClientSize = new System.Drawing.Size(1624, 559);
+            this.Name = "Form2";
+            this.ResumeLayout(false);
+
+        }
     }
 }

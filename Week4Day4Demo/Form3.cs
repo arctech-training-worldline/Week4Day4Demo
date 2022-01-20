@@ -93,5 +93,15 @@ namespace Week4Day4Demo
         {
             WindowState = FormWindowState.Maximized;
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            MessageBox.Show("oH NO. wHO CLICKED THE LINK!!");
+        }
+
+        private void LabelNotes_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
